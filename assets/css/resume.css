@@ -1,0 +1,273 @@
+.resume-title {
+  color: #00cef6;
+  padding-top: 60px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.resume-title hr {
+  margin-top: 2px;
+  margin-bottom: 15px;
+  border-top: 1px dashed #d0d0d0;
+}
+.resume-header {
+  padding-top: 50px;
+}
+.resume-header h1 {
+  color: #222;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.resume-header p {
+  color: #00cef6;
+  font-size: 15px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+.resume-basic-info {
+  padding-top: 50px;
+}
+.resume-basic-info li {
+  display: inline;
+}
+.resume-basic-info p {
+  display: inline-block;
+}
+.resume-basic-info i {
+  color: #00cef6;
+  margin-right: 4px;
+}
+.resume-content p {
+  font-size: 15px;
+  line-height: 23px;
+}
+.resume-content #moreInfo li {
+  padding: 5px 0;
+}
+.resume-content a {
+  color: #00cef6;
+  margin-top: 25px;
+  font-weight: bold;
+}
+.resume-content a:hover {
+  color: #008eaa;
+}
+.resume-workflow li {
+  display: inline-block;
+  width: 95px;
+  text-align: center;
+  margin: 0 2px;
+}
+.resume-workflow li img {
+  margin: 20px 0 5px;
+}
+.resume-skills li {
+  margin-bottom: 15px;
+}
+.resume-skills .resume-skill-list {
+  width: 120px;
+  float: left;
+}
+.resume-skills .resume-skill-chart {
+  float: left;
+}
+.resume-skills .resume-circle {
+  display: inline-block;
+  background: #00cef6;
+  border-radius: 5px;
+  width: 10px;
+  height: 10px;
+  line-height: 20px;
+}
+.resume-skills .resume-circle.dark-circle {
+  background: #999;
+}
+.timeline {
+  position: relative;
+  width: 660px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 1em 0;
+  list-style-type: none;
+}
+.timeline:before {
+  position: absolute;
+  left: 6px;
+  top: 0;
+  content: ' ';
+  display: block;
+  width: 6px;
+  height: 100%;
+  margin-left: -3px;
+  background: #e1e1e1;
+  background: -moz-linear-gradient(top, rgba(225, 225, 225, 0) 0%, #e1e1e1 8%, #e1e1e1 92%, rgba(225, 225, 225, 0) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1e5799), color-stop(100%, #7db9e8));
+  background: -webkit-linear-gradient(top, rgba(225, 225, 225, 0) 0%, #e1e1e1 8%, #e1e1e1 92%, rgba(225, 225, 225, 0) 100%);
+  background: -o-linear-gradient(top, rgba(225, 225, 225, 0) 0%, #e1e1e1 8%, #e1e1e1 92%, rgba(225, 225, 225, 0) 100%);
+  background: -ms-linear-gradient(top, rgba(225, 225, 225, 0) 0%, #e1e1e1 8%, #e1e1e1 92%, rgba(225, 225, 225, 0) 100%);
+  background: linear-gradient(to bottom, rgba(225, 225, 225, 0) 0%, #e1e1e1 8%, #e1e1e1 92%, rgba(225, 225, 225, 0) 100%);
+  z-index: 5;
+}
+.timeline li {
+  padding: 1em 0;
+}
+.timeline li:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.direction-r {
+  position: relative;
+  width: 400px;
+}
+.flag-wrapper {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.flag-wrapper a {
+  color: #777;
+}
+.flag {
+  position: relative;
+  display: inline;
+  background: #fafafa;
+  padding: 6px 10px;
+  border-radius: 5px;
+  left: 40px;
+  font-weight: 600;
+  text-align: left;
+}
+.direction-r .flag {
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15), 0 0 1px rgba(0, 0, 0, 0.15);
+}
+.direction-r .flag:before {
+  position: absolute;
+  top: 65%;
+  right: 0;
+  left: -40;
+  content: ' ';
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin-top: -10px;
+  background: #fff;
+  border-radius: 10px;
+  border: 4px solid #00cef6;
+  z-index: 10;
+}
+.direction-r .flag:before {
+  top: 65%;
+  left: -40px;
+}
+.direction-r .flag:after {
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  height: 0;
+  width: 0;
+  margin-top: -8px;
+  border: solid transparent;
+  border-right-color: #f8f8f8;
+  border-width: 8px;
+  pointer-events: none;
+}
+.time-wrapper {
+  display: inline;
+  margin: 1px 0 0 38px;
+  line-height: 1em;
+  font-size: 0.66666em;
+  color: #00cef6;
+  vertical-align: middle;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+.direction-r .time-wrapper {
+  float: right;
+}
+.time {
+  display: inline-block;
+  padding: 4px 6px;
+  font-weight: bold;
+  background: #f8f8f8;
+}
+.desc {
+  margin: 1em 0.75em 0 0;
+  font-size: 0.77777em;
+  font-style: italic;
+  line-height: 1.5em;
+}
+.direction-r .desc {
+  margin: 1em 0 0 4em;
+}
+ul {
+  padding-left: 0;
+}
+.btn.btn-default.btn-lg:hover,
+.btn.btn-default.btn-lg:focus,
+.btn.btn-default.btn-lg:active {
+  color: #00cef6;
+}
+.center-block {
+  display: table;
+  margin: 80px auto;
+}
+.mt-25 {
+  margin-top: 25px;
+}
+.mt-60 {
+  margin-top: 60px;
+}
+.mt-80 {
+  margin-top: 80px;
+}
+.mr-5 {
+  margin-right: 5px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.ml-70 {
+  margin-left: 70px;
+}
+.fade-in.delay-3 {
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  animation-delay: 3s;
+}
+.fade-in.delay-4 {
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  animation-delay: 4s;
+}
+@media (max-width: 480px) {
+  .desc {
+    width: 225px;
+  }
+  .resume-basic-info li {
+    display: block;
+  }
+  .resume-basic-info .ml-70 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 481px) and (max-width: 719px) {
+  .resume-basic-info li {
+    display: block;
+  }
+  .resume-basic-info .ml-70 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 992px) {
+  .pr-30 {
+    padding-right: 30px;
+  }
+  .pl-30 {
+    padding-left: 30px;
+  }
+}
